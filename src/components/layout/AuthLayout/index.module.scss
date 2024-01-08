@@ -1,0 +1,15 @@
+.main {
+  background-color: rgb(33, 43, 54);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.container {
+  background-color: white;
+  width: 50%;
+  border-radius: 30px;
+  padding-bottom: 20px;
+}

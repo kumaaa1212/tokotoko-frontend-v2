@@ -8,8 +8,9 @@ import Document, {
   DocumentInitialProps,
 } from "next/document";
 import createEmotionServer from "@emotion/server/create-instance";
-import createEmotionCache from "@/createEmotionCache";
-import theme from "@/theme";
+import theme from "theme";
+import createEmotionCache from "createEmotionCache";
+
 
 
 export default class MyDocument extends Document {
